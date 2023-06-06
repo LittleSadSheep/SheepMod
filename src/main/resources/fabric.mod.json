@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "littlesadsheep",
+  "version": "${version}",
+  "name": "SheepMod",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/LittleSadSheep/SheepMod"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/littlesadsheep/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.sheepmc.littlesadsheep.client.SheepModClient"
+    ],
+    "main": [
+      "org.sheepmc.littlesadsheep.SheepMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
